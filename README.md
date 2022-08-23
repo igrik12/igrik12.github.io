@@ -223,3 +223,6 @@ The trade-offs of the proposed architecture:
 1.  With the microservices architecture and asynchronous nature of the event driven approach we will not be able to achieve strong consistency, but rather eventual. An example would be when an airline creates a flight updated, it would not be instantly available to the clients. However, I don’t think that this would create an issue as it would ,for example, for a banking system. The UI flight information data retrieval will more than likely be based on a polling interval, rather than server-client push events, meaning that it already assumes eventual consistency.
     
 2.  The second trade-off might be in using NqSQL database, meaning that our data will be de-normalised, so we might end up with some duplicated data and a little more maintanence. However, as I’ve mentioned previously, the relationships between the data models are quite simple and our system must meet the performance requirements when it comes to read queries, which I belive Firestore provides.
+
+***
+### Time spent  ~6.5 hours
