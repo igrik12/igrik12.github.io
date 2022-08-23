@@ -1,7 +1,5 @@
 # Flight Information System Design Proposal Page
-
 * * *
-
 |     |     |
 | --- | --- |
 | **Diagram owner** | Igor Lavrentjev |
